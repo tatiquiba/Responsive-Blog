@@ -9,16 +9,30 @@ header {
 	height: 50%
 }
 
+nav {
+	margin-top: 15px
+}
+
 li {
 	display: inline;
-	float: right;
 }
 
 li a {
 
 	text-decoration: none;
 	color: white;
-	padding: 5px;
+	font-family: "open sans";
+	padding: 10px;
+	text-align: right;
+}
+
+/*section*/
+section {
+	background-color: rgb(33, 30, 39);
+}
+
+.spring {
+	background-image: src:;
 }
 
 /* Responsive */

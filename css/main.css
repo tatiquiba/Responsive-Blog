@@ -22,6 +22,7 @@ li a {
 	text-decoration: none;
 	color: white;
 	font-family: "open sans";
+	font-style: italic;
 	padding: 10px;
 	text-align: right;
 }
@@ -32,15 +33,43 @@ section {
 }
 
 .spring {
-	background-image: src:;
+	background-image: url(header-image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-size: cover;
+	margin: 60px auto;
 }
 
-/* Responsive */
-
-@media screen and (max-width : 920px) {
-
+.header {
+	background-color: rgb(33, 30, 39);
+	background-position: center;
+	width: 60%;
+	height: 60%;
+	margin-top: 100px;
+	margin-left: 20%
 }
 
-@media screen and (max-width: 600px) {
+h1 {
+	font-family: "courgette";
+	color: #F8BA67;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 60px
+}
 
+.header li {
+	color: white;
+	font-family: "open sans";
+	font-style: italic;
+	padding: 10px;
+	top: 30px
+}
+
+li:after {
+	content: '   -   '
+}
+
+.header li:last-child {
+	content: none;
 }
